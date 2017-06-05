@@ -10,3 +10,7 @@
 	height: 500px;
 	padding: 5em;
 }
+.left , .right {
+	width: 25%;
+	float: left;
+}
