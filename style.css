@@ -1,0 +1,12 @@
+.button_summit {
+	background: red;
+	width: 100px;
+	height: 50px;
+}
+.main_div {
+	width: 50%;
+	margin: 0 auto;
+	border:3px solid blue;
+	height: 500px;
+	padding: 5em;
+}
