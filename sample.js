@@ -9,4 +9,13 @@ $(document).ready(function()
 	$('.third1').clone().appendTo('.left'); //Clone an Element Using jQuery
 	$('.first').parent().css('color', 'red'); //Target the Parent of an Element Using jQuery
 	$('.right').children().css('color', 'green'); //Target the Children of an Element Using jQuery
+
 });
+
+
+var myName; // declare variable in javascript
+var name = "daliya"; // assign value to the variable
+var add = a + b; //add 2 values and store in one variable
+var sub = a - b; //subtract 2 values and store in one variable
+var mul = a * b; //multiply 2 values and store in one variable
+var div = a / b; //divide 2 values and store in one variable
