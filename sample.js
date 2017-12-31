@@ -43,7 +43,14 @@ $(document).ready(function()
 	var lastName = "Lovelace";
 	firstLetterOfLastName = lastName[0]; 
 
-
+	
+	window.onload = function(){
+		setTimeout(function(){
+			var parentId = document.getElementById("gif-image");
+			var childId = document.getElementById("gif-id");
+			parentId.removeChild(childId);
+		}, 3000);
+	};
 });
 
 
